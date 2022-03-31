@@ -257,7 +257,7 @@ public class GraphicsEditorApp extends JPanel{
         //Mouse
         this.addMouseListener(appController);
         this.addMouseMotionListener(appController);
-        //Keyboard——DEAR LORD IS THERE A BETTER WAY TO DO THIS??
+        //Keyboard
         leftSide.addKeyListener(appController);
         rightSide.addKeyListener(appController);
         shapeButtons.addKeyListener(appController);
